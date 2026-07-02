@@ -1,0 +1,24 @@
+## .NET / C# gitignore
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+*.rsuser
+
+# NuGet
+*.nupkg
+project.lock.json
+packages/
+
+# OS
+Thumbs.db
+.DS_Store
