@@ -1,24 +1,32 @@
-## .NET / C# gitignore
-
-# Build results
+# Visual Studio / .NET
+.vs/
 bin/
 obj/
-
-# User-specific files
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
-
-# Visual Studio files
-.vs/
 *.rsuser
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
 # NuGet
 *.nupkg
-project.lock.json
+*.snupkg
+.nuget/
 packages/
-
-# OS
-Thumbs.db
-.DS_Store
+project.lock.json
+project.fragment.lock.json
+artifacts/
